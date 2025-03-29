@@ -12,26 +12,22 @@ export default function Footer() {
           {/* About */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Image src="/images/logo.png" alt="COGAAN Logo" width={40} height={40} className="rounded-full" />
+              <Image src="/images/LogoBlackBg.jpeg" alt="COGAAN Logo" width={70} height={70} className="rounded-full" />
               <span className="font-bold text-xl">COGAAN</span>
             </div>
             <p className="text-gray-400 mb-4">
               A community of coding, gaming, and animation enthusiasts coming together to learn, create, and innovate.
             </p>
             <div className="flex gap-4">
-              <Link href="#" className="text-gray-400 hover:text-accent transition-colors">
+              <Link href="https://github.com/Cogaan-Club-Gitam" className="text-gray-400 hover:text-accent transition-colors">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-accent transition-colors">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link href="#" className="text-gray-400 hover:text-accent transition-colors">
+              <Link href="https://www.instagram.com/cogaanc/" className="text-gray-400 hover:text-accent transition-colors">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-accent transition-colors">
+              <Link href="https://www.youtube.com/@COGAAN" className="text-gray-400 hover:text-accent transition-colors">
                 <Youtube className="h-5 w-5" />
                 <span className="sr-only">YouTube</span>
               </Link>
@@ -81,15 +77,15 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-accent shrink-0 mt-0.5" />
-                <span className="text-gray-400">info@cogaan.org</span>
+                <span className="text-gray-400">cogaan_sig@gitam.in</span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-accent shrink-0 mt-0.5" />
-                <span className="text-gray-400">123 Tech Avenue, Innovation District, City, Country</span>
+                <span className="text-gray-400">B - 013, Gitam University, Rudraram, Telangana</span>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-accent shrink-0 mt-0.5" />
-                <span className="text-gray-400">+1 (123) 456-7890</span>
+                <span className="text-gray-400">+91-8712365756</span>
               </li>
             </ul>
           </div>

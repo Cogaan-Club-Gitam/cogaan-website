@@ -9,45 +9,7 @@ import { Badge } from "@/components/ui/badge"
 
 // Sample ongoing events data - in a real app, this would come from an API
 const ongoingEventsData = [
-  {
-    id: 1,
-    title: "Game Jam 2024",
-    description: "A 48-hour game development challenge where teams create games based on a surprise theme.",
-    image: "/placeholder.svg?height=300&width=500",
-    startDate: "2025-04-15T18:00:00",
-    endDate: "2025-04-17T18:00:00",
-    location: "Innovation Hub",
-    maxAttendees: 50,
-    currentAttendees: 32,
-    category: "Gaming",
-    registrationOpen: true,
-  },
-  {
-    id: 2,
-    title: "Web3 Development Workshop Series",
-    description: "A series of workshops exploring blockchain technology and decentralized applications.",
-    image: "/placeholder.svg?height=300&width=500",
-    startDate: "2025-04-10T17:00:00",
-    endDate: "2025-05-15T19:00:00",
-    location: "Tech Center, Room 305",
-    maxAttendees: 30,
-    currentAttendees: 25,
-    category: "Coding",
-    registrationOpen: true,
-  },
-  {
-    id: 3,
-    title: "Character Animation Challenge",
-    description: "A month-long challenge to create and animate an original character with weekly feedback sessions.",
-    image: "/placeholder.svg?height=300&width=500",
-    startDate: "2025-04-01T00:00:00",
-    endDate: "2025-04-30T23:59:59",
-    location: "Online",
-    maxAttendees: 100,
-    currentAttendees: 67,
-    category: "Animation",
-    registrationOpen: true,
-  },
+
 ]
 
 export default function OngoingEvents() {

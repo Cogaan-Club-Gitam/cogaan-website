@@ -15,16 +15,18 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Welcome to <span className="gradient-text">COGAAN</span>
+              Welcome to <span className="cherry-burst">COGAAN</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0">
               Where coding, gaming, and animation enthusiasts come together to create, learn, and innovate in a
               collaborative environment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <a href="https://chat.whatsapp.com/CB3sXb9xO8IAZbVTGPKJrI" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-accent hover:bg-accent/80">
                 Join Our Community
               </Button>
+            </a>
               <Button size="lg" variant="outline">
                 Explore Projects <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -33,7 +35,7 @@ export default function Hero() {
 
           <div className="flex-1 relative">
             <div className="relative w-full aspect-square max-w-md mx-auto">
-              <Image src="/images/logo.png" alt="COGAAN Logo" fill className="object-contain animate-float" priority />
+              <Image src="/images/LogoBlackBg.jpeg" alt="COGAAN Logo" fill className="object-contain animate-float" priority />
             </div>
           </div>
         </div>

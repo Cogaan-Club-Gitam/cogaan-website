@@ -24,7 +24,7 @@ export default function AboutUs() {
           <div>
             <h3 className="text-2xl font-bold mb-4">Our Story</h3>
             <p className="text-gray-300 mb-6">
-              COGAAN was founded in 2020 by a group of passionate students who wanted to create a space where people
+              COGAAN was founded in 2019 by a group of passionate students who wanted to create a space where people
               interested in coding, gaming, and animation could come together to learn, collaborate, and grow.
             </p>
             <p className="text-gray-300 mb-6">
@@ -40,7 +40,7 @@ export default function AboutUs() {
               </div>
               <div className="flex items-center gap-3">
                 <Trophy className="h-5 w-5 text-accent" />
-                <span className="text-gray-300">20+ Awards</span>
+                <span className="text-gray-300">2 ACE Awards</span>
               </div>
               <div className="flex items-center gap-3">
                 <Calendar className="h-5 w-5 text-accent" />
@@ -48,7 +48,7 @@ export default function AboutUs() {
               </div>
               <div className="flex items-center gap-3">
                 <Lightbulb className="h-5 w-5 text-accent" />
-                <span className="text-gray-300">30+ Projects</span>
+                <span className="text-gray-300">20+ Projects</span>
               </div>
             </div>
 
@@ -59,7 +59,7 @@ export default function AboutUs() {
             <div className="relative w-full aspect-video rounded-lg overflow-hidden border border-gray-800">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-blue-500/20 z-10"></div>
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/groupPic.png"
                 alt="COGAAN Team"
                 width={600}
                 height={400}

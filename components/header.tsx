@@ -36,7 +36,7 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/images/logo.png" alt="COGAAN Logo" width={50} height={50} className="rounded-full" />
+          <Image src="/images/LogoBlackBg.jpeg" alt="COGAAN Logo" width={70} height={70} className="rounded-full" />
           <span className="font-bold text-xl">COGAAN</span>
         </Link>
 

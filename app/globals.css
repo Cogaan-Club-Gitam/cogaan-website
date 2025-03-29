@@ -62,6 +62,36 @@
   @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-blue-500;
 }
 
+
+
+
+.red-fire {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-500;
+}
+
+.ruby-shine {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-red-700 to-pink-500;
+}
+
+.crimson-fade {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-red-800 to-red-400;
+}
+
+.red-sunset {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500;
+}
+
+.cherry-burst {
+  @apply bg-clip-text text-transparent bg-gradient-to-l from-red-700 to-red-700;
+}
+
+
+
+
+
+
+
+
 .event-card {
   @apply relative overflow-hidden rounded-lg border border-gray-800 bg-gray-900 p-6 transition-all duration-300 hover:border-accent hover:shadow-lg hover:shadow-accent/20;
 }
