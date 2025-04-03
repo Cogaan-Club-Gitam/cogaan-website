@@ -47,7 +47,11 @@ export default function Header() {
               {item.name}
             </Link>
           ))}
-          <Button className="bg-accent hover:bg-accent/80">Join Us</Button>
+          <a href="https://chat.whatsapp.com/CB3sXb9xO8IAZbVTGPKJrI" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-accent hover:bg-accent/80">
+              Join Us
+            </Button>
+          </a>
         </nav>
 
         {/* Mobile Navigation Toggle */}
