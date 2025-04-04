@@ -30,7 +30,7 @@ const projects = [
     id: 3,
     title: "Gitam RAG (Optimizers)",
     description: "The RAG-Powered Academic Assistance System is a smart tool that helps students by providing course-specific, context-aware answers using Retrieval-Augmented Generation (RAG), ensuring responses match the structure and content of college-level academics.",
-    image: "/images/projects/optimizers.png",
+    image: "/images/projects/optimizers_rag.png",
     tags: ["RAG", "Gen AI", "Chat GPT", "Gitam"],
     github: "https://github.com/OmNaidu123/GITAM-RAG/tree/main",
     demo: "#",
